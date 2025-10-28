@@ -8,15 +8,15 @@ To start off I will make a new github repository named SvelteTS23 and clone this
 
 Within visual studio code open this folder in a container which is for node and typescript.
 
-![container type](/src/assets/page2/images/containerType.png)
+![container type](/presentation/src/assets/page2/images/containerType.png)
 
 Choose the recent version of node.
 
-![bullseye](/src/assets/page2/images/bullseye.png)
+![bullseye](/presentation/src/assets/page2/images/bullseye.png)
 
 Choose no additional options.
 
-![no options](/src/assets/page2/images/noOptions.png)
+![no options](/presentation/src/assets/page2/images/noOptions.png)
 
 Allow time for the DevContainer to start, then check the node version.
 
@@ -288,7 +288,7 @@ item has the sturucture of a User so its company fields can be accessed and info
 A color is added to the card, you can experiment with the styling of the card.
 
 The full listing is 
-**my-app/src/routes/+page.svelte**
+**my-app/presentation/src/routes/+page.svelte**
 ```javascript
 <svelte:head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -360,6 +360,6 @@ onMount(async function () {
 
 The working output is then:
 
-![user list](/src/assets/page2/images/userList.png)
+![user list](/presentation/src/assets/page2/images/userList.png)
 
 The Svelte code is pretty straight forward, the biggest difficulty was the versioning changes around the style sheet code, that should be fixed in time.
