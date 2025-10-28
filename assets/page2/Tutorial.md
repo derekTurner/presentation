@@ -8,15 +8,15 @@ To start off I will make a new github repository named SvelteTS23 and clone this
 
 Within visual studio code open this folder in a container which is for node and typescript.
 
-![container type](/../presentation/src5/assets/page2/images/containerType.png)
+![container type](/src/assets/page2/images/containerType.png)
 
 Choose the recent version of node.
 
-![bullseye](/../presentation/src5/assets/page2/images/bullseye.png)
+![bullseye](/src/assets/page2/images/bullseye.png)
 
 Choose no additional options.
 
-![no options](/../presentation/src5/assets/page2/images/noOptions.png)
+![no options](/src/assets/page2/images/noOptions.png)
 
 Allow time for the DevContainer to start, then check the node version.
 
@@ -181,7 +181,7 @@ app.html
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.PNG" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
@@ -360,6 +360,6 @@ onMount(async function () {
 
 The working output is then:
 
-![user list](/../presentation/src5/assets/page2/images/userList.png)
+![user list](/src/assets/page2/images/userList.png)
 
 The Svelte code is pretty straight forward, the biggest difficulty was the versioning changes around the style sheet code, that should be fixed in time.
